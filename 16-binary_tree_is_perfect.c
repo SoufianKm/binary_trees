@@ -34,5 +34,5 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	if (!tree)
 		return (0);
 
-	return (is_perfect(tree->right) != 0 ? 1 : 0);
+	return (is_perfect(tree) != 0 ? 1 : 0);
 }
